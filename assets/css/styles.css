@@ -1,0 +1,224 @@
+/* === CSS DIRECTORY === */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+/* Sorted */
+@media screen and (min-width:760px){
+    .box2c{flex-basis: 49%;}
+    .box3c{flex-basis: 30%;}
+}
+
+
+/*=== LOGO ===*/
+
+.boxlogo{
+    width: 290px;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+#logopi {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #ff6e00
+}
+
+#logowong {
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;    
+    font-size: 4rem;
+    color: white;
+}
+
+a {
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.box1c{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+    font-size: 1rem;
+}
+
+h1{
+    top: 125px;
+    right: 40px;
+    align-self: center;
+    position: fixed;
+    font-size: 1.5rem;
+}
+
+
+.container  {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.boxaside{
+    color: black;
+    flex-basis: 100%;
+    position: relative;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.box2c{
+    width: 700px;
+    height: auto;
+    flex-basis: 75%;
+    background-color: white;
+    margin: 5px;
+
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+ 
+
+    flex-grow: 0;
+}
+
+.box2c:hover{
+    position: relative;
+    inset: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .95;
+    filter: blur(0px);
+}
+
+.box3c{
+    width: 200px;
+    height: auto;
+    flex-basis: 35%;
+    background-color: white;
+    margin: 5px;
+
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+
+    flex-grow: 0;
+}
+
+.box3c:hover{
+    position: relative;
+    inset: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .95;
+    filter: blur(0px);
+}
+
+.box4c{
+    color: white;
+    width: 100px;
+    height: auto;
+    flex-basis: 22%;
+    background-color: black;
+    margin: 5px;
+
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+
+    flex-grow: 0;
+}
+
+
+.hline{
+    position: relative;
+    border-style: solid;
+    border-color: white white #ff6e00 white;
+}
+
+.j-right{
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+
+
+.boxoverlay0{
+    background-color: darkkhaki;
+    position: absolute;
+    width: 7rem;
+    height: 5rem;
+    z-index: 10;
+    left: 230px;
+    top: 1425px;
+
+    color: black;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.boxoverlay1{
+    background-color: darkkhaki;
+    position: absolute;
+    width: 7rem;
+    height: 5rem;
+    z-index: 10;
+    left: 230px;
+    top: 1850px;
+
+    color: black;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+
+
+p{
+    color: black;
+}
+
+.hoverdisabled{
+    pointer-events: none;
+}
+
+.box15{
+    background-color: darkkhaki;
+    position: fixed;
+    z-index: 10;
+    left: 100px;
+    bottom: 10px;
+}
+

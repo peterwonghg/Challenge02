@@ -1,0 +1,45 @@
+.primary{
+    color: var(--primary);
+    
+}
+
+.header {
+    padding: 20px;
+    padding-left: 6rem;
+    background-color: black;
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+.j-flexend{
+    justify-content: flex-end;
+}
+
+.align-flexend{
+    align-items: flex-end;
+}
+
+.j-right{
+    justify-self: flex-end;
+}
+
+.b-spacing{
+    border-spacing: 5rem;
+}
+
+
+.fitimage{
+    width: 100%;
+    object-fit: cover;
+}
+
+.flex100{
+    flex: 1 1 100px;
+}
